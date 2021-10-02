@@ -1,88 +1,166 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<title>Les tableaux en HTML</title>
+    
+		<title>Chess games</title>
+        
         <style>
-        /* décoration du fond de la page par un gradient radial */
-        body {   background-image: repeating-radial-gradient(red, yellow 10%, green 15%); }
+        
+        img {margin:-20px; padding-left:20px; padding-right:20px;}
         /* centrer le texte du titre */
         h1 { text-align : center; }
         /* centrer le tableau */
         table { margin-left : auto; margin-right : auto;}
         /* simples bordures pour tous les éléments du tableau */
         table, tr, th, td { border : solid 1px black; }
-        td { padding : 15px;}
-        	 
+        td { padding : 30px;}
+        body {
+  		background-image: url('https://img.freepik.com/vecteurs-libre/theme-papier-peint-texture-elegante-			 	blanche_23-2148432204.jpg?size=626&ext=jpg');
+ 		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		}
         /* 2n+1 : odd = impair  ; even = pair */
-        tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd)  { background : red; color : yellow; }
+        tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd)  { background : #2E86C1; color: white; }
+        
         </style>
+        
 	</head>
+    
 	<body>
+    
 	   <main>
-		<h1>Tableau 4 lignes x 3 colonnes</h1>
+       
+		<h1>Plateau d'Échecs</h1>
+        
 		<table>
-        	<!-- première ligne -->
-        	<tr> <!-- tr : table row -->
-            	<!-- première colonne -->
-            	<td>l1 c1</td>
-				<!-- deuxième colonne -->
-            	<td>l1 c2</td>
-				<!-- troisième colonne -->
-            	<td>l1 c3</td>
+        
+        	<tr> 
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png" width="30" 
+    			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png" width="30" 
+   			    height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png" width="30" 
+ 			    height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Chess_qdt60.png" width="30" 
+   			  	height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Chess_kdt60.png" width="30" 
+    			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png" width="30" 
+    			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png" width="30" 
+    			height="30" align="center"></td>
             </tr>
-			<!-- deuxième ligne -->
-        	<tr>
-            	<!-- première colonne -->
-            	<td>l2 c1</td>
-				<!-- deuxième colonne -->
-            	<td>l2 c2</td>
-				<!-- troisième colonne -->
-            	<td>l2 c3</td>
+            
+        	<tr> 
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png" width="30" 
+     			height="30" align="center"></td>
+     
             </tr>
-        	<!-- troisième ligne -->
-        	<tr>
-            	<!-- première colonne -->
-            	<td>l3 c1</td>
-				<!-- deuxième colonne -->
-            	<td>l3 c2</td>
-				<!-- troisième colonne -->
-            	<td>l3 c3</td>
+            
+            <tr> 
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p></p></td>
             </tr>
-			<!-- quatrième ligne -->
-        	<tr>
-            	<!-- première colonne -->
-            	<td>l4 c1</td>
-				<!-- deuxième colonne -->
-            	<td>l4 c2</td>
-				<!-- troisième colonne -->
-            	<td>l4 c3</td>
+            
+            <tr> 
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p></p></td>
             </tr>
+            
+            <tr> 
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p></p></td>
+            </tr>
+            
+        	<tr> 
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><p></p></td>
+            </tr>
+            
+            <tr> 
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" width="30" 
+    			height="30" align="center"></td>
+            </tr>
+            
+            <tr> 
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png" width="30" 
+     			height="30" align="center"></td>
+            	<td><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Chess_qlt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chess_klt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png" width="30" 
+     			height="30" align="center"></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png" width="30" 
+     			height="30" align="center"></td>
+            </tr>
+
         </table>
+        
        </main>
-       <footer>
-       		<hr/>  <!-- ligne horizontale -->
-       		<h1><u>Ressources utiles</u></h1>
-            <ul> <!-- liste de liens -->
-            	<li><a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank" title="balises : table, tr et td">tableau minimal ;</a></li>
-                <li><a href="https://www.w3schools.com/tags/tag_caption.asp" target="_blank" title="balises : caption, th">attribuer un titre au tableau, aux colonnes et aux lignes ;</a></li>
-                <li><a href="https://www.w3schools.com/tags/tag_tbody.asp" target="_blank" title="balises : thead, tbody, tfoot">structuration sémantique du tableau</a></li>
-                <li><a href="https://www.w3schools.com/tags/tag_col.asp" target="_blank" title="balises : col, colgroup">style local des colonnes</a></li>
-                <li><a href="javascript:alert('à compléter')" target="_self" title="à compléter">...</a></li>
-            </ul>
-       </footer>
 		
 	</body>
-    <script langage="javascript"> /* à partir d'ici le code est du javascript */
-    	// liste des éléments TD (les cellules ou cases du tableau)
-    	var cellules = document.getElementsByTagName("TD");
-        
-        compteur = 0; // compte le n° de la cellule
-        for (cellule of cellules) { // parcour de la liste
-        	compteur++; // incrémentation du compteur
-            // ajout d'un tooltips = info-bulle
-        	cellule.title = "Cellule (Table Data = TD) n° " + compteur;	
-            // ajout d'un symbole de pièce d'échec en unicode ; URL source :https://fr.wikipedia.org/wiki/Symboles_d%27%C3%A9checs_en_Unicode au contenu HTML de chaque cellule
-            cellule.innerHTML += "   &#" + (9812 + compteur - 1);
-        }
-    </script>
+    
 </html>
